@@ -6,8 +6,7 @@ const path = require('path');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 const PATHS = {
-  app: path.join(__dirname, 'src/index.js'),
-  scholar: path.join(__dirname, 'src/scholar.js'), // Add this line
+  app: path.join(__dirname, 'src/index.js')
 };
 
 module.exports = {
