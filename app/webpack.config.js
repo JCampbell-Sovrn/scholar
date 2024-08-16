@@ -16,14 +16,13 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].bundle.js', // This will create app.bundle.js and scholar.bundle.js
+    filename: 'scholar.bundle.js', // This will create app.bundle.js and scholar.bundle.js
   },
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
         loader: 'babel-loader',
-        exclude: /node_modules/,
         include: /src/,
         sideEffects: false,
       },
