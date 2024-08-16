@@ -25,7 +25,7 @@ export const scholar = () => {
       <ComponentsProvider>
         <Space p="xxxxxlarge" width="100%" height="50vh" around>
           <Text p="xxxxxlarge" fontSize="xxxxxlarge">
-            {setMessage(`Hello, ${value.display_name}`).}
+            setMessage(`Hello, ${value.display_name}`).
           </Text>
         </Space>
       </ComponentsProvider>
