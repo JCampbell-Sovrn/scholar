@@ -4,6 +4,8 @@ import { scholar } from './scholar'
 import { ExtensionProvider } from '@looker/extension-sdk-react'
 import { hot } from 'react-hot-loader/root'
 
+import './scholar.js';
+
 export const App = hot(() => {
   return (
     <ExtensionProvider>
