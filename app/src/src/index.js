@@ -6,7 +6,7 @@ INDEX.JS
 
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { App } from './App';
+import { App } from './App.js';
 
 // Import scholar.js to include it in the bundle
 import './scholar.js';
